@@ -1,0 +1,16 @@
+ <svg
+    viewBox="0 0 40 40"
+    height="30"
+    width="30"
+    preserveAspectRatio="xMidYMid meet"
+    focusable="false"
+  >
+    <title>Order status valid completed</title>
+    <g fill="none" fillRule="evenodd">
+      <circle id="valid-completed" fill="#6cbe20" cx="20" cy="20" r="20"></circle>
+      <path
+        fill="#FFF"
+        d="M17 25.17L12.83 21l-1.42 1.41L17 28l12-12-1.41-1.41z"
+      ></path>
+    </g>
+  </svg>

@@ -1,0 +1,18 @@
+ <svg
+    viewBox="0 0 40 40"
+    height="30"
+    width="30"
+    preserveAspectRatio="xMidYMid meet"
+    focusable="false"
+  >
+    <title>Order status canceled</title>
+    <g fill="none" fillRule="evenodd">
+      <circle cx="20" cy="20" r="20" fill="#F5F5F5"></circle>
+      <path
+        fill="#000"
+        fillOpacity=".54"
+        fillRule="nonzero"
+        d="M20 10a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10a10 10 0 1 1 0-20zm0 2a8 8 0 0 0-8 8c0 1.85.63 3.55 1.68 4.91l11.23-11.23A8.005 8.005 0 0 0 20 12zm0 16a8 8 0 0 0 8-8c0-1.85-.63-3.55-1.68-4.91L15.09 26.32A8.005 8.005 0 0 0 20 28z"
+      ></path>
+    </g>
+  </svg>

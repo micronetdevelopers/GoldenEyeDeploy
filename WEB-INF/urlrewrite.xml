@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/urlrewrite4.0.dtd">
+<urlrewrite>
+    <rule>
+        <from>^/(?!.*\.(js|css|png|jpg|jpeg|gif|ico|svg|woff2|ttf|json)$).*$</from>
+        <to>/index.html</to>
+    </rule>
+</urlrewrite>
