@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GoldenEyeDeploy/static/css/main.0d80ef52.css",
-    "main.js": "/GoldenEyeDeploy/static/js/main.e1f41cad.js",
+    "main.js": "/GoldenEyeDeploy/static/js/main.7827ec91.js",
     "static/js/453.2d24948a.chunk.js": "/GoldenEyeDeploy/static/js/453.2d24948a.chunk.js",
     "static/media/night_animated_vedeio.mp4": "/GoldenEyeDeploy/static/media/night_animated_vedeio.16ae20622a8629781c2e.mp4",
     "static/media/Airbus.png": "/GoldenEyeDeploy/static/media/Airbus.23eecaebc27735f3279c.png",
@@ -64,11 +64,11 @@
     "static/media/angle.svg": "/GoldenEyeDeploy/static/media/angle.d234ad88d082549e381d993427b49027.svg",
     "static/media/back.svg": "/GoldenEyeDeploy/static/media/back.8164ecfc126a5f47c4f71186c6ba4e59.svg",
     "main.0d80ef52.css.map": "/GoldenEyeDeploy/static/css/main.0d80ef52.css.map",
-    "main.e1f41cad.js.map": "/GoldenEyeDeploy/static/js/main.e1f41cad.js.map",
+    "main.7827ec91.js.map": "/GoldenEyeDeploy/static/js/main.7827ec91.js.map",
     "453.2d24948a.chunk.js.map": "/GoldenEyeDeploy/static/js/453.2d24948a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d80ef52.css",
-    "static/js/main.e1f41cad.js"
+    "static/js/main.7827ec91.js"
   ]
 }
