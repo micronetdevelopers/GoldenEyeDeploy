@@ -1,0 +1,295 @@
+.sidebar {}
+
+.sidebar ul {
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    padding: 5px 5px;
+
+}
+
+.sidebar img {
+    width: 25px;
+    height: 25px;
+    /* border-radius: 25%; */
+    transition: box-shadow 0.3s ease;
+}
+
+.sidebar img:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-line-icon {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(10, 9, 9);
+    border: none;
+    margin: 10px 0;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px 5px; */
+    height: calc(100vh - 113px);
+}
+
+.main_container .GEMapRightSection {
+    position: absolute;
+    right: 0.3rem;
+    left: auto;
+    top: 8.5rem;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.GEMapRightSectionIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b6cfe0;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.GEMapRightSectionIcon.disabled {
+    background-color: #d4d7d9;
+}
+
+
+
+.main_container .ol-layers-control {
+    right: 0.5rem;
+    left: auto;
+    top: 0.5rem;
+}
+
+.main_container .ol-zoom {
+    right: 0.5rem;
+    left: auto;
+    top: auto;
+    bottom: 15.5rem;
+}
+
+.main_container .ol-zoomslider {
+    right: .5rem;
+    left: auto;
+    top: auto;
+    bottom: 2.5rem;
+}
+
+.main_container .ol-attribution {
+    display: none;
+}
+
+.main_container .ol-scale-line {
+    right: 0.5rem;
+    left: auto;
+}
+
+.second-section {
+    width: 35%;
+    padding: 4px;
+
+}
+
+.Third-section {
+    width: 60%;
+
+}
+
+.map_section {}
+
+.Filter_section {
+    position: absolute;
+    top: 0.3%;
+    left: 60%;
+    transform: translateX(-50%);
+    /* z-index: 1000; */
+    border-radius: 8px;
+    /* Rounded corners */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.sidebar-item {
+    /* border: 1px solid rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    /* background-color: rgb(238, 232, 232); */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 2px;
+
+}
+
+
+
+
+
+/* drowp down product  */
+
+
+.product_Item_container {
+    overflow-y: auto;
+    height: 22rem;
+    padding-left: 0.70rem;
+    padding-right: 0.70rem;
+
+}
+.productAllocation_Item_container {
+    overflow-y: auto;
+   
+    padding-left: 0.70rem;
+    padding-right: 0.70rem;
+
+}
+
+/* For Firefox */
+.product_Item_container {
+    scrollbar-width: thin;
+    /* Make scrollbar thin */
+    scrollbar-color: #bbbbbb #f0f0f0;
+    /* thumb color and track color */
+}
+
+.product_Item_List {
+    /* overflow-y: auto; */
+
+}
+
+.w-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+div#slider-root-\:r1\: {
+    width: 90%;
+}
+
+div#slider-thumb-\:r1\:-0 {
+    background: rgb(30 58 138);
+}
+
+div#slider-thumb-\:r1\:-1 {
+    background: rgb(30 58 138);
+}
+
+div#slider-thumb-\:r3\:-0 {
+    background: rgb(30 58 138);
+}
+
+div#slider-thumb-\:r3\:-1 {
+    background: rgb(30 58 138);
+}
+
+div#slider-thumb-\:r5\:-0 {
+    background: rgb(30 58 138);
+}
+
+div#slider-thumb-\:r5\:-1 {
+    background: rgb(30 58 138);
+}
+
+
+div#slider-root-\:r3\: {
+    width: 90%;
+}
+
+div#slider-track-\:r5\: {
+    width: 90%;
+}
+
+
+.switch-container {
+    display: flex;
+    align-items: center;
+}
+
+.switch-label {
+    margin: 0 10px;
+}
+
+.check_switch {
+    position: relative;
+    width: 65px;
+    /* Adjust the width */
+    height: 16px;
+    /* Adjust the height */
+    -webkit-appearance: none;
+    background: #ccc;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.check_switch:checked {
+    background: #35fc88;
+}
+
+.check_switch:before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    /* Adjust the width */
+    height: 14px;
+    /* Adjust the height */
+    border-radius: 50%;
+    background: white;
+    transition: 0.3s;
+    top: 1px;
+    left: 1px;
+}
+
+.check_switch:checked:before {
+    transform: translateX(50px);
+    /* Adjust the translate value */
+}
+
+.tooltip {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.ant-picker-input .ant-picker-suffix {
+    display: none;
+}
+
+
+
+
+
+.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+    z-index: 0;
+}
+
+
+/* Media Querys */
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1299px) {}
+
+
+
+@media (min-width: 1300px) and (max-width: 1750px) {}

@@ -1,0 +1,151 @@
+.homepageclass {
+    text-align: center;
+    background: aliceblue;
+}
+
+.ProductMainBox {
+    background-color: #1D364D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductMainBox h1 {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.ProductMainBox p {
+    width: 50%;
+    color: aliceblue;
+    line-height: 1.7;
+}
+
+.AboutMainBox h1 {
+    color: #022b4e;
+    font-weight: 500;
+    
+}
+
+.OuterProdBox {
+    background-color: #7184ac;
+    background: radial-gradient(circle, #8894b3, #fcfcfd); /* Radial gradient background */
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap onto multiple lines if needed */
+    justify-content: center;
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    gap: 80px;
+    /* Space between the cards */
+    margin: 0 auto;
+    /* Center align */
+    margin-bottom: 40px;
+
+}
+
+.LogoCard {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+    width: 245px;
+    gap: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.ServicesMainBox {
+    /* background-color: #ced1d3; */
+    height: auto;
+}
+
+.ServicesMainBox h1 {
+    color: #022b4e;
+    font-weight: 500;
+}
+
+.outermaincardbox {
+    /* background-color: #a9c575; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap onto multiple lines if needed */
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    /* Space between the cards */
+    margin: 0 auto;
+    /* Center align */
+}
+
+
+.cardbox {
+    background-color: #8193B7;
+    background: radial-gradient(circle, #cdd5e9, #8397bd); /* Radial gradient background */
+    width: 245px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #022b4e;
+    transition: transform 0.5s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+
+}
+
+.cardbox:hover {
+    transform: translateY(-10px); /* Moves the card up */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.heading1, .heading2, .heading3, .heading4, .heading5, .heading6 {
+    font-size: 22px; /* Increase the font size */
+    /* text-align: center; */
+    
+    
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+
+/* Responsive design for tablets and smaller devices */
+
+
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100px;
+        height: 100px;
+        padding: 10px; /* Further reduced padding */
+    }
+
+    .heading1, .heading2, .heading3, .heading4, .heading5, .heading6 {
+        font-size: 25px; /* Smaller font size for smaller screens */
+    }
+}
+
+/* Responsive design for mobile phones */
+@media (max-width: 576px) {
+    .card {
+        width: 80px;
+        height: 80px;
+        padding: 5px; /* Even further reduced padding */
+    }
+
+    .heading1, .heading2, .heading3, .heading4, .heading5, .heading6 {
+        font-size: 12px; /* Smaller font size for mobile screens */
+    }
+}

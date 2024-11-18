@@ -1,0 +1,14 @@
+.error-message {
+    color: red;
+    display: block;
+    margin-top: 5px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.ForGetPassWordHeading {
+    color: black;
+}
+

@@ -1,0 +1,530 @@
+/* Products.css */
+
+/* Container Styling */
+.products-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Text Content Styling */
+.leftsidetext h1 {
+    /* font-size: 2.5rem; */
+    font-size: clamp(0.5rem, 3.435vw, 2.5rem);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.leftsidetext p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card Image Styling */
+.card-img-top {
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adds a subtle shadow effect */
+}
+
+/* Card Styling */
+.outer-card {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.inner-card {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Video Styling */
+.video-background {
+    object-fit: cover;
+    height: 100%;
+    max-height: 99.9%;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .text-content {
+        text-align: left;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .leftsidetext h1 {
+        font-size: 2rem;
+    }
+
+    .leftsidetext p {
+        font-size: 1.2rem;
+    }
+
+    .outer-card,
+    .inner-card {
+        width: 100%;
+    }
+
+    .video-col {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .leftsidetext h1 {
+        font-size: 1.8rem;
+    }
+
+    .leftsidetext p {
+        font-size: 1rem;
+    }
+
+    .video-col {
+        height: 40vh;
+    }
+}
+
+
+
+
+/* CSS for New Section */
+.section1 {
+    padding: 40px;
+    /* background-color: #BFBFBF !important; */
+    /* margin: 0;  */
+
+}
+
+/* Center Box */
+.centerbox {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: whitesmoke;
+}
+
+
+
+/* Header Box */
+.headerbox {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    /* background-color: aquamarine !important; */
+
+    align-items: center;
+    width: 99%;
+}
+
+.Airbuslogo img {
+    width: 100%;
+    height: auto;
+}
+
+.head-1 {
+    font-size: 30px;
+    color: #070C36 !important;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+
+.nextbox {
+    margin-bottom: px;
+    margin-left: 10px;
+    margin-right: 10%;
+    /* background-color: rgb(214, 218, 216) !important; */
+    width: 99%;
+}
+
+.lftbox {
+    /* background-color: beige; */
+    padding-bottom: 25%;
+    margin-bottom: 50%;
+    width: 50%;
+    height: 100px;
+}
+
+.contentbox {
+    /* background-color: rgb(189, 119, 28); */
+    position: relative;
+    width: 71%;
+    margin-left: 25%;
+
+}
+
+.contentbox,h1 {
+    font-size: 22px;
+}
+
+.contentbox p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+.rhtbox {
+    /* background-color: rgb(216, 203, 203); */
+    padding-bottom: 25%;
+    margin-bottom: 50%;
+    width: 50%;
+    height: 100px;
+}
+
+
+
+.rhtbox .img-fluid {
+    max-width: 100%;
+    height: 47rch;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    margin-left: 6%;
+    margin-top: 10px;
+
+}
+
+
+
+/* Bottom portion CSS */
+.bottombox {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 32vh;
+    /* margin-bottom: 10%; */
+}
+
+/* Style for cards and images */
+.card-container img {
+    transition: transform 0.4s ease-in-out;
+    /* Smooth transition */
+    padding-top: 10px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.card-container img:hover {
+    transform: scale(1.05);
+    /* Slightly scale the image on hover */
+}
+
+/* Style for the buttons */
+.card-container button {
+    /* width: 100%; */
+    /* margin-top: 10px; */
+    background-color: #1C2A45;
+    /* Dark color for the button */
+    color: white;
+    /* White text */
+    border: none;
+    padding: 4px;
+    border-radius: 0;
+    /* Ensure the button has square corners */
+    /* cursor: pointer; */
+
+}
+
+.card-container button:hover {
+    background-color: #1C2A45;
+    color: chartreuse;
+
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .headerbox {
+        flex-direction: column;
+    }
+
+    .head-1 {
+        font-size: 1.5rem;
+    }
+
+    .lftbox,
+    .rhtbox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contentbox {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contentbox h1 {
+        font-size: 1.25rem;
+    }
+
+    .contentbox p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .head-1 {
+        font-size: 1.25rem;
+    }
+
+    .contentbox h1 {
+        font-size: 1.125rem;
+    }
+
+    .contentbox p {
+        font-size: 0.75rem;
+    }
+}
+
+
+/* CSS for New Section Broucher  */
+.section2 {
+    /* padding: 40px; */
+    /* background-color: #BFBFBF !important; */
+    /* margin: 0;  */
+
+}
+
+.containerProduct {
+    max-width: 1778px;
+    /* background-color: aqua; */
+}
+
+.col-lg-6 {
+    /* flex: 0 0 auto; */
+    /* width: 100%; */
+    /* border-radius: 0; */
+
+}
+.CardContent{
+   
+    background:radial-gradient(circle, rgba(242, 247, 248, 0.81) 0%, rgba(129, 147, 183, 0) 100%) ;
+    border:0.1px solid #77A1ca;
+    border-radius: 2px;
+}
+/* .shadow-lg {
+    box-shadow: var(--bs-box-shadow-lg) !important;
+    border-radius: 0;
+    background-color: bisque;
+} */
+
+@media (min-width: 1200px) {
+
+    card-title.h3,
+    h3 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+}
+
+/* @media (min-width: 1200px) {
+
+    .p,
+    p {
+        font-size: 1.2rem;
+
+    }
+} */
+
+/* media query handling */
+@media (min-width: 320px) and (max-width:425px) {
+    .section1{
+        padding: 0px;
+    }
+    .centerbox {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-1{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .lftbox {
+        /* background-color: beige; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    .rhtbox{
+        height: auto;
+        padding-bottom: 0;
+    }
+    .nextbox{
+        margin-left: 0px;
+    }
+    .rhtbox .img-fluid {
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .bottombox {
+        height: auto!important;
+    }
+    .Airbuslogo{
+        width: 207px;
+        height: 57px;   
+       }
+       .downloadbtn{
+        font-size: 11px;
+       }
+}
+.leftsidetext{
+    font-size: 20px;
+    text-wrap: wrap;
+}
+@media (min-width: 425px) and (max-width:768px) {
+    .section1{
+        padding: 0px;
+    }
+    .centerbox {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-1{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .lftbox {
+        /* background-color: beige; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    .rhtbox{
+        height: auto;
+        padding-bottom: 0;
+    }
+    .nextbox{
+        margin-left: 0px;
+    }
+    .rhtbox .img-fluid {
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .bottombox {
+        height: auto!important;
+    }
+    .Airbuslogo{
+        width: 207px;
+        height: 57px;   
+       }
+       .downloadbtn{
+        font-size: 11px;
+       }
+}
+@media (min-width: 768px) and (max-width:1024px) {
+    .section1{
+        padding: 0px;
+    }
+    .centerbox {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-1{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .lftbox {
+        /* background-color: beige; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    .rhtbox{
+        height: auto;
+        padding-bottom: 0;
+    }
+    .nextbox{
+        margin-left: 0px;
+    }
+    .rhtbox .img-fluid {
+        max-width: fit-content;
+        /* width: 480px; */
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* margin-left: 113px; */
+        margin-top: 0px;
+        /* background-size: cover; */
+    }
+
+    .bottombox {
+        height: auto!important;
+    }
+    .downloadbtn{
+        font-size: 11px;
+       }
+       .leftsidetext{
+        font-size: 15px;
+        text-wrap: wrap;
+    }
+    .paragraphbesideimage{
+        font-size: 12px;
+        text-wrap: wrap;
+    }
+}
+@media (min-width: 1024px) and (max-width:1440px) {
+    .section1{
+        padding: 0px;
+    }
+    .centerbox {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-1{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .lftbox {
+        /* background-color: beige; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    .rhtbox{
+        height: auto;
+        padding-bottom: 0;
+    }
+    .nextbox{
+        margin-left: 0px;
+    }
+    .rhtbox .img-fluid {
+        max-width: fit-content;
+        /* width: 480px; */
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-left:36%;
+        margin-top: 0px;
+        /* background-size: cover; */
+    }
+
+    .bottombox {
+        height: auto!important;
+        padding: 0!important;
+    }
+    .Airbuslogo{
+     width: 207px;
+     height: 57px;   
+    }
+    .leftsidetext{
+        font-size: 20px;
+        text-wrap: wrap;
+    }
+  
+}

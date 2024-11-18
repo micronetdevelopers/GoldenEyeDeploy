@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.33333in" height="3.33333in" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 3333.33 3333.33"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <clipPath id="id0">
+     <path d="M1666.67 66.67c883.66,0 1600,716.34 1600,1600 0,883.66 -716.34,1600 -1600,1600 -883.66,0 -1600,-716.34 -1600,-1600 0,-883.65 716.34,-1600 1600,-1600z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2350543935136">
+   <path fill="#A9DCF2" d="M1666.67 66.67c883.66,0 1600,716.34 1600,1600 0,883.66 -716.34,1600 -1600,1600 -883.66,0 -1600,-716.34 -1600,-1600 0,-883.65 716.34,-1600 1600,-1600z"/>
+   <g clip-path="url(#id0)">
+    <g>
+     <ellipse fill="#52658C" stroke="#373435" stroke-width="6.94" stroke-miterlimit="2.61313" cx="1679.98" cy="3630.64" rx="1666.67" ry="1666.66"/>
+    </g>
+   </g>
+   <path fill="none" stroke="#52658C" stroke-width="100" stroke-miterlimit="2.61313" d="M1666.67 66.67c883.66,0 1600,716.34 1600,1600 0,883.66 -716.34,1600 -1600,1600 -883.66,0 -1600,-716.34 -1600,-1600 0,-883.65 716.34,-1600 1600,-1600z"/>
+   <circle fill="#52658C" stroke="#373435" stroke-width="6.94" stroke-miterlimit="2.61313" cx="1680.59" cy="1158.01" r="733.33"/>
+  </g>
+ </g>
+</svg>

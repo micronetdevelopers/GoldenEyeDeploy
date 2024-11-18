@@ -1,0 +1,124 @@
+.contact-main {
+    display: flex;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    background: var(--bg-color);
+    width: 100%;
+    overflow: hidden;
+    height: calc(100vh - 113px);
+}
+
+.left-col {
+    background-image: url("https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.right-col {
+    background: #061227;
+    padding: 3rem;
+    color: #cbd6e7;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo-contact {
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    object-fit: cover;
+}
+
+.logo-name-contact {
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(240, 217, 11);
+}
+
+.contact-content {
+    font-size: 1.1rem;
+    color: #bdba89;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    margin-top: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .right-col,
+    .left-col {
+        width: 100%;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .contact-logo {
+        justify-content: center;
+    }
+
+    .contact-content,
+    .contact-form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-name-contact {
+        font-size: 28px;
+    }
+
+    .contact-form .form-control {
+        width: 100%;
+    }
+
+    .contact-form .btn-primary {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-logo {
+        margin-bottom: 1rem;
+    }
+
+    .right-col {
+        padding: 15px;
+    }
+
+    .logo-name-contact {
+        font-size: 24px;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,288 @@
+.aboutpageclass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full height of the viewport */
+    background-color: #708ba7;
+    padding: 20px;
+    /* Ensure some padding in case of smaller screens */
+}
+
+.aboutcenterbox {
+    background-color: white;
+    padding: 30px 10px 10px 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
+    border-radius: 10px;
+    max-width: 1500px;
+    width: 100%;
+    /* Ensures responsiveness */
+    /* min-height: 700px;  */
+    margin: auto;
+    /* Centers the box horizontally */
+}
+
+
+/* Fix layout for laptop (1024px) and similar breakpoints */
+@media (max-width: 1024px) {
+    .aboutcenterbox {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    /* Ensure the columns remain side-by-side */
+    .col-lg-6 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .headingbox h1 {
+        font-size: 35px;
+    }
+
+    .aboutus-content p {
+        font-size: 16px;
+    }
+}
+
+/* Further adjustments for tablet-sized screens */
+@media (max-width: 768px) {
+    .aboutcenterbox {
+        padding: 20px;
+    }
+
+    /* Stacking columns vertically */
+    .col-lg-6,
+    .col-md-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .headingbox h1 {
+        font-size: 30px;
+    }
+
+    .aboutus-content p {
+        font-size: 15px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+    .aboutcenterbox {
+        padding: 10px;
+    }
+
+    .headingbox h1 {
+        font-size: 25px;
+    }
+
+    .aboutus-content p {
+        font-size: 14px;
+    }
+
+    .logo-image {
+        width: 50px;
+        /* Smaller logo for mobile */
+    }
+}
+
+
+
+/* Logo and Heading alignment */
+.headingbox {
+    /* background-color: antiquewhite; */
+    margin-left: 60px;
+    width: 100%;
+}
+
+.logo-image {
+    width: 70px;
+    height: auto;
+}
+
+.logoname {
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.aboutus-content {
+    width: 98%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 10px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* css for vision and mission card */
+
+.flip-card,
+.flip-card1 {
+    background-color: transparent;
+    width: 300px;
+    height: 265px;
+    perspective: 1000px;
+  }
+
+ 
+
+  .flip-card-inner,
+  .flip-card-inner1 {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 79%;
+    text-align: center;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card1:hover .flip-card-inner1{
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back,
+  .flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-back,
+  .flip-card-back1 {
+    /* background-color: #2980b9; */
+    color: white;
+    transform: rotateY(180deg);
+  }
+ 
+
+  .flip-card-back p,
+  .flip-card-back1 p {
+    font-size: 14px;
+  }
+
+
+.aboutus-mission img,
+.aboutus-vision img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutus-vision img {
+   margin-bottom: 10%;
+}
+
+
+
+
+
+/* Styling for the vertical line */
+.vl {
+    border-left: 3px solid rgb(46, 45, 45);
+    /* Vertical line with green color and 6px width */
+    height: auto;
+    /* Adjust the height based on the content */
+    margin: 0 10px;
+    /* Add spacing between the columns */
+    min-height: 500px;
+    /* Ensure the vertical line has at least 500px height */
+    display: flex;
+    align-items: stretch;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .vl {
+        display: none;
+        /* Hide vertical line on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+/* Right column styling */
+.bg-dark {
+    /* background-color: #343a40 !important; */
+    color: white;
+    text-align: center;
+}
+
+
+/* Adjusting the text size and image responsiveness */
+
+.rtcol-content h4 {
+    font-size: 18px;
+    /* Default font size */
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.aboutus-handimg {
+    display: flex;
+    justify-content: center;
+    /* Centers the image horizontally */
+    align-items: center;
+    /* Centers the image vertically if the container has enough height */
+    /* height: 100%;             */
+}
+
+
+.aboutus-handimg img {
+    width: 80%;
+    /* Ensures the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+
+/* Responsive adjustments for tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .rtcol-content h4 {
+        font-size: 20px;
+        /* Slightly smaller text for tablet screens */
+    }
+}
+
+/* Responsive adjustments for mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .rtcol-content h4 {
+        font-size: 18px;
+        /* Smaller text for better readability on mobile */
+        text-align: justify;
+        /* Optional: adjust text alignment for mobile */
+    }
+a
+    .aboutus-handimg img {
+        margin-top: 15px;
+        /* Add spacing for mobile layout */
+    }
+}
+
+/* For very small screens (max-width: 576px) */
+@media (max-width: 576px) {
+    .rtcol-content h4 {
+        font-size: 16px;
+        /* Further reduce the font size */
+    }
+
+    .aboutus-handimg img {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,17 @@
+.GEManage {
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+}
+
+.GEManageActiveButton {
+    width: auto;
+    font-size: 15px;
+    box-shadow: rgb(205, 184, 184) 2px 2px 4px, rgba(37, 47, 44, 0.37) 3px 3px 5px 2px inset, rgba(58, 69, 57, 0.44) -3px -3px 5px 1px inset;
+    background-color: rgb(70, 133, 88);
+}
+
+.GEManageInactiveButton {
+    width: auto;
+    font-size: 15px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 4px, rgba(169, 107, 1, 0.18) -3px -3px 5px 1px inset, rgb(253, 243, 226) 3px 3px 4px 1px inset;
+    background-color: rgb(210, 220, 227);
+}

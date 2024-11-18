@@ -1,0 +1,336 @@
+/* Base styles for all screens */
+.responsive-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    /* Responsive font size for h1 */
+}
+
+.responsive-paragraph {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    /* Responsive font size for p */
+}
+
+.section-services {
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.service-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #132433;
+    margin-bottom: 1.5rem;
+}
+
+.service-paragraph {
+    font-size: 1.125rem;
+    color: #1D364D;
+    line-height: 1.6;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(0.95);
+    opacity: 0.9;
+}
+
+.card-body {
+    padding: 15px;
+    background: #ffffffa1;
+    border-radius: 12px;
+    border: 1px solid aliceblue;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Responsive design adjustments */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .responsive-heading {
+        font-size: 2rem;
+    }
+
+    .responsive-paragraph {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.1em;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .responsive-heading {
+        font-size: 2.5rem;
+    }
+
+    .responsive-paragraph {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        font-size: 1.2em;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .responsive-heading {
+        font-size: 3rem;
+    }
+
+    .responsive-paragraph {
+        font-size: 1.3rem;
+    }
+
+    .card-title {
+        font-size: 1.3em;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .responsive-heading {
+        font-size: 3.5rem;
+    }
+
+    .responsive-paragraph {
+        font-size: 1.4rem;
+    }
+
+    .card-title {
+        font-size: 1.4em;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .responsive-heading {
+        font-size: 4rem;
+    }
+
+    .responsive-paragraph {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .card-text {
+        font-size: 17px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .responsive-heading {
+        font-size: 4.5rem;
+    }
+
+    .responsive-paragraph {
+        font-size: 1.6rem;
+    }
+
+    .card-title {
+        font-size: 1.6em;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+}
+.Containinsideservicepage{
+  margin: 0 280px;
+    overflow-x: hidden;
+}
+
+/* new service page design */
+.containerOfService {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 45px 31px;
+    /* padding: 46px 5px; */
+    /* padding: 100px 50px; */
+}
+
+.containerOfService .cardServices {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    max-width: 100%;
+    height: 291px;
+    /* width: 350px;
+    max-width: 100%;
+    height: 300px; */
+    /* background: white; */
+    background: #ffffffa1;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.containerOfService .cardServices:hover {
+    height: 400px;
+}
+
+.containerOfService .cardServices  .img-box {
+    position: absolute;
+    order: 0.5px solid white;
+    /* top: 20px; */
+    width: 100%;
+    border-radius: 20px 20px 0px 0px!important;
+    height: 236px;
+    background: #333;
+    border-radius: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.containerOfService .cardServices:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.containerOfService .cardServices .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerOfService .cardServices .contentOfSErvices {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.containerOfService .cardServices:hover .contentOfSErvices {
+    top: 130px;
+    height: 250px;
+}
+
+.containerOfService .cardServices .contentOfSErvices h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--clr);
+}
+
+.containerOfService .cardServices .contentOfSErvices p {
+    color: #333;
+}
+
+.containerOfService .cardServices .contentOfSErvices a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 7px 25px;
+    text-decoration: none;
+    background: var(--clr);
+    color: white;
+    font-weight: 500;
+}
+
+.containerOfService .cardServices .contentOfSErvices a:hover {
+    opacity: 0.8;
+}
+
+
+@media (max-width: 480px) {
+    .containerOfService .cardServices {
+        width: 230px;
+        border-radius: 15px;
+    }
+
+    .containerOfService .cardServices .img-box {
+        width: 185px;
+        border-radius: 10px;
+    }
+
+    .containerOfService .cardServices .contentOfSErvices p {
+        font-size: 0.8rem;
+    }
+
+    .containerOfService .cardServices .contentOfSErvices a {
+        font-size: 0.9rem;
+    }
+}
+@media(min-width:320px)and (max-width:425px){
+    .Containinsideservicepage{
+        margin: 0 20px;
+          overflow-x: hidden;
+      }
+      .containerOfService .cardServices .contentOfSErvices h2 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--clr);
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 425px) and (max-width:768px){
+    .Containinsideservicepage{
+        margin: 0 20px!important;
+          overflow-x: hidden;
+      }  
+}
+@media (min-width: 768px) and (max-width:1024px){
+    .Containinsideservicepage{
+        margin: 0 30px;
+          overflow-x: hidden;
+      }  
+}
+@media (min-width: 1024px) and (max-width:1440px){
+    .Containinsideservicepage{
+        margin: 0 30px;
+          overflow-x: hidden;
+      }   
+}
+@media (min-width: 1440px) and (max-width:1850px){
+    .Containinsideservicepage{
+        margin: 0 30px;
+          overflow-x: hidden;
+      }   
+}

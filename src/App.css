@@ -1,0 +1,45 @@
+/* Basic reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Header and Navbar */
+.GoldenEyeHeader {
+  /* background-color: #282c34;
+  padding: 0.5rem;
+  color: white; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/* Main content */
+.GoldenEyeMainBodySection {
+  height: calc(100vh - 113px);
+  overflow-y: auto;
+}
+
+/* Footer */
+.GoldenEyeCopyWritefooter {
+  /* background-color: #134f77; */
+  background-color: #4e858c;
+  color: white;
+  text-align: center;
+  padding: 0.4rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 0.7rem;
+  font-family: Robota Condensed, sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.GoldenEyeCopyWritefooter p {
+  margin-bottom: 0;
+}
